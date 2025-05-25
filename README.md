@@ -76,7 +76,7 @@ All’inizio abbiamo avuto problemi a pilotare il ventilatore dal pin GPIO D15:
     <img src="immagini/IMG_8394.jpg" alt="IMG 8394" style="width: 300px; border-radius: 15px;" />
     <img src="immagini/IMG_8395.jpg" alt="IMG 8395" style="width: 300px; border-radius: 15px;" />
     <img src="immagini/IMG_8398.jpg" alt="IMG 8398" style="width: 300px; border-radius: 15px;" />
-    <img src="immagini/th-4102128234.jpg" alt="th-4102128234" style="width: 300px; border-radius: 15px;" />
+    <img src="immagini/th-4102128234.jpg" alt="th-4102128234" style="width: 300px; height:auto; border-radius: 15px;" />
     <img src="immagini/2n2222-2222-transistor-data-tt-datasheet-n2222-2585107277.jpg" alt="2n2222-2222-transistor-data-tt-datasheet-n2222-2585107277.jpg" style="width: 300px; border-radius: 15px;" />
     
     
