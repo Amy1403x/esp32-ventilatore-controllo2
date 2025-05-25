@@ -37,3 +37,9 @@ Il display OLED mostra in tempo reale:
 Per modificare la soglia di temperatura, cambia questa riga nel codice:
 ```cpp
 const float TEMP_SOGLIA = 24.0;  // Temperatura in gradi Celsius
+
+
+
+[circuito.pdf](https://github.com/user-attachments/files/20431688/Documento.senza.titolo.pdf)
+
+
