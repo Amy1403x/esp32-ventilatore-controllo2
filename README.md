@@ -38,4 +38,7 @@ Per modificare la soglia di temperatura, cambia questa riga nel codice:
 ```cpp
 const float TEMP_SOGLIA = 24.0;  // Temperatura in gradi Celsius
 ```
-prova
+
+immagini/IMG_8394.jpg
+immagini/IMG_8398.jpg
+immagini/Presentazione.pdf
