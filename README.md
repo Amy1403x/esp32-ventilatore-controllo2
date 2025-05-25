@@ -72,7 +72,7 @@ All’inizio ho avuto problemi a regolare il ventilatore dal pin GPIO D2:
     Usare modulo relè: soluzione sicura ma non voluta.
 
 ### Soluzione definitiva: usare transistor NPN 2N2222 con collegamenti corretti.
-[CLICCA_VIDEO_PRESENTAZIOEN](https://drive.google.com/drive/folders/1GUEUTkNlYGJk-smshIuskiLKClhBi8_J?usp=drive_link)
+[CLICCA PER VIDEO DIMOSTRATIVO](https://drive.google.com/drive/folders/1GUEUTkNlYGJk-smshIuskiLKClhBi8_J?usp=drive_link)
 
 
 
