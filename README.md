@@ -39,9 +39,22 @@ Per modificare la soglia di temperatura, cambia questa riga nel codice:
 const float TEMP_SOGLIA = 24.0;  // Temperatura in gradi Celsius
 ```
 
-![Foto1](immagini/IMG_8394.jpg)
-![Foto2](immagini/IMG_8398.jpg)
-<img src="immagini/IMG_8398.jpg" alt="Foto2" width="300" />
+
+<div style="text-align: center;">
+    <img src="immagini/IMG_8394.jpg" alt="IMG 8394" style="width: 300px; border-radius: 15px;" />
+    <img src="immagini/IMG_8395.jpg" alt="IMG 8395" style="width: 300px; border-radius: 15px;" />
+    <img src="immagini/IMG_8398.jpg" alt="IMG 8398" style="width: 300px; border-radius: 15px;" />
+    <img src="immagini/th-4102128234.jpg" alt="th-4102128234" style="width: 300px; border-radius: 15px;" />
+</div>
+
+<div style="text-align: center;">
+    <a href="immagini/Presentazione.pdf" target="_blank" style="display: inline-block; margin-top: 20px;">
+        <button style="padding: 10px 20px; border-radius: 5px; background-color: #4CAF50; color: white; border: none;">
+            Visualizza Presentazione
+        </button>
+    </a>
+</div>
+
 
 
 
