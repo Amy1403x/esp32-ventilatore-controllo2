@@ -2,6 +2,10 @@
 
 Questo progetto è un sistema automatico per il controllo di un ventilatore basato sulla temperatura ambiente. Quando la temperatura supera la soglia impostata, il ventilatore si accende automaticamente.
 
+
+<img src="immagini/th-4102128234.jpg" alt="th-4102128234" style="width: 300px; border-radius: 15px;" />
+
+
 ## Hardware Necessario
 - ESP32
 - Sensore di temperatura e umidità DHT11
@@ -38,7 +42,7 @@ Per modificare la soglia di temperatura, cambia questa riga nel codice:
 ```cpp
 const float TEMP_SOGLIA = 24.0;  // Temperatura in gradi Celsius
 ```
-
+<br>
 
 <div style="text-align: center;">
     <img src="immagini/IMG_8394.jpg" alt="IMG 8394" style="width: 300px; border-radius: 15px;" />
