@@ -13,15 +13,21 @@ Questo progetto è un sistema automatico per il controllo di un ventilatore basa
 - Ventilatore 5V
 - LED bianco
 - Resistenza 220Ω
+- Transistor 2N2222 + Resistenza 1k
 
 ## Collegamenti
-| Componente         | Pin ESP32 |
-|--------------------|-----------|
-| DHT11 Data         | D4        |
-| OLED SDA           | D21       |
-| OLED SCL           | D22       |
-| LED                | D18       |
-| Ventilatore        | D15       |
+| Componente             | Pin ESP32 / Collegamento                 |
+|------------------------|-----------------------------------------|
+| DHT11 Data             | D4                                      |
+| OLED SDA               | D21                                     |
+| OLED SCL               | D22                                     |
+| LED bianco             | D18                                     |
+| Ventilatore positivo   | Alimentazione 3.3V o 5V (non su pin ESP32) |
+| Transistor 2N2222 Base | D15 tramite resistenza 1 kΩ              |
+| Transistor 2N2222 Collettore | Ventilatore polo negativo           |
+| Transistor 2N2222 Emettitore | GND comune (ESP32 + alimentazione)  |
+       
+
 
 ## Librerie Richieste
 Installa queste librerie tramite l'IDE Arduino:
