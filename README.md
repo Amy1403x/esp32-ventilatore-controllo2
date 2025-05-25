@@ -40,6 +40,3 @@ const float TEMP_SOGLIA = 24.0;  // Temperatura in gradi Celsius
 
 
 
-[circuito.pdf](https://github.com/user-attachments/files/20431688/Documento.senza.titolo.pdf)
-
-
