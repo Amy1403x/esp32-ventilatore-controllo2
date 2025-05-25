@@ -40,7 +40,8 @@ const float TEMP_SOGLIA = 24.0;  // Temperatura in gradi Celsius
 ```
 
 ![Foto1](immagini/IMG_8394.jpg)
-![Foto1](immagini/IMG_8398.jpg)
+![Foto2](immagini/IMG_8398.jpg)
+<img src="immagini/IMG_8398.jpg" alt="Foto2" width="300" />
 
 
 
