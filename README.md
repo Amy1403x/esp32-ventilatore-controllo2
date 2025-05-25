@@ -51,13 +51,13 @@ const float TEMP_SOGLIA = 24.0;  // Temperatura in gradi Celsius
 
 ## Problemi Iniziali con il Pin GPIO e Soluzioni Provate
 
-All’inizio abbiamo avuto problemi a pilotare il ventilatore dal pin GPIO D15:
+All’inizio ho avuto problemi a regolare il ventilatore dal pin GPIO D2:
 
     Il pin GPIO non riusciva a fornire abbastanza corrente per il ventilatore.
 
     Collegare il ventilatore direttamente al pin GPIO rischiava di danneggiare l’ESP32.
 
-    Abbiamo provato a usare MOSFET non logic-level, ma il ventilatore rimaneva sempre acceso o non si spegneva.
+    Ho provato a usare MOSFET non logic-level, ma il ventilatore rimaneva sempre acceso o non si spegneva.
 
     Collegamenti errati del MOSFET causavano malfunzionamenti.
 
@@ -71,7 +71,7 @@ All’inizio abbiamo avuto problemi a pilotare il ventilatore dal pin GPIO D15:
 
     Usare modulo relè: soluzione sicura ma non voluta.
 
-    Soluzione definitiva: usare transistor NPN 2N2222 con collegamenti corretti.
+### Soluzione definitiva: usare transistor NPN 2N2222 con collegamenti corretti.
 
 
 
