@@ -39,6 +39,8 @@ Per modificare la soglia di temperatura, cambia questa riga nel codice:
 const float TEMP_SOGLIA = 24.0;  // Temperatura in gradi Celsius
 ```
 
-immagini/IMG_8394.jpg
-immagini/IMG_8398.jpg
-immagini/Presentazione.pdf
+![Foto1](immagini/IMG_8394.jpg)
+![Foto1](immagini/IMG_8398.jpg)
+
+
+
