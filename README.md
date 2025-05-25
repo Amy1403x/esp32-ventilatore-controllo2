@@ -42,6 +42,34 @@ Per modificare la soglia di temperatura, cambia questa riga nel codice:
 ```cpp
 const float TEMP_SOGLIA = 24.0;  // Temperatura in gradi Celsius
 ```
+
+## Problemi Iniziali con il Pin GPIO e Soluzioni Provate
+
+All’inizio abbiamo avuto problemi a pilotare il ventilatore dal pin GPIO D15:
+
+    Il pin GPIO non riusciva a fornire abbastanza corrente per il ventilatore.
+
+    Collegare il ventilatore direttamente al pin GPIO rischiava di danneggiare l’ESP32.
+
+    Abbiamo provato a usare MOSFET non logic-level, ma il ventilatore rimaneva sempre acceso o non si spegneva.
+
+    Collegamenti errati del MOSFET causavano malfunzionamenti.
+
+    Mancanza di resistenza pull-down sul gate del MOSFET faceva rimanere acceso il ventilatore anche a pin LOW.
+
+## Soluzioni Provate e Risultati
+
+    Usare transistor MOSFET logic-level: non disponibile o non funzionante bene.
+
+    Aggiungere resistenza pull-down tra gate e massa: migliorava ma non risolveva del tutto.
+
+    Usare modulo relè: soluzione sicura ma non voluta.
+
+    Soluzione definitiva: usare transistor NPN 2N2222 con collegamenti corretti.
+
+
+
+
 <br>
 
 <div style="text-align: center;">
@@ -49,6 +77,9 @@ const float TEMP_SOGLIA = 24.0;  // Temperatura in gradi Celsius
     <img src="immagini/IMG_8395.jpg" alt="IMG 8395" style="width: 300px; border-radius: 15px;" />
     <img src="immagini/IMG_8398.jpg" alt="IMG 8398" style="width: 300px; border-radius: 15px;" />
     <img src="immagini/th-4102128234.jpg" alt="th-4102128234" style="width: 300px; border-radius: 15px;" />
+    <img src="immagini/2n2222-2222-transistor-data-tt-datasheet-n2222-2585107277.jpg" alt="2n2222-2222-transistor-data-tt-datasheet-n2222-2585107277.jpg" style="width: 300px; border-radius: 15px;" />
+    
+    
 </div>
 
 <div style="text-align: center;">
