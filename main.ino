@@ -7,7 +7,7 @@
 // ===== DEFINIZIONE DEI PIN =====
 #define DHT_PIN 4        // Pin D4 per il sensore DHT11
 #define LED_PIN 18       // Pin D18 per il LED bianco
-#define VENTOLA_PIN 15   // Pin D15 per il ventilatore
+#define VENTOLA_PIN 2   // Pin D2 per il ventilatore
 #define OLED_SDA 21      // Pin SDA per display OLED
 #define OLED_SCL 22      // Pin SCL per display OLED
 
