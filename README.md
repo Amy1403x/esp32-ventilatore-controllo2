@@ -3,6 +3,9 @@
 Questo progetto implementa un sistema automatico per il controllo di un ventilatore basato sulla temperatura dell'ambiente. Quando la temperatura supera una soglia preimpostata ( 24 - 25°C ), il ventilatore si attiva automaticamente.
 
 
+<img src="immagini/th-4102128234.jpg" alt="th-4102128234" style="width: 300px; border-radius: 15px;" />
+
+
 ## Hardware Necessario
 - ESP32
 - Sensore di temperatura e umidità DHT11
@@ -64,9 +67,21 @@ L’utilizzo di un transistor NPN 2N2222 con collegamenti corretti ha garantito 
 
 ---
 
+<div style="text-align: center;">
+    <img src="immagini/IMG_8394.jpg" alt="IMG 8394" style="width: 300px; border-radius: 15px;" />
+    <img src="immagini/IMG_8395.jpg" alt="IMG 8395" style="width: 300px; border-radius: 15px;" />
+    <img src="immagini/IMG_8398.jpg" alt="IMG 8398" style="width: 300px; border-radius: 15px;" />
+    <img src="immagini/th-4102128234.jpg" alt="th-4102128234" style="width: 300px; height:auto; border-radius: 15px;" />
+    <img src="immagini/2n2222-2222-transistor-data-tt-datasheet-n2222-2585107277.jpg" alt="2n2222-2222-transistor-data-tt-datasheet-n2222-2585107277.jpg" style="width: 300px; border-radius: 15px;" />
+</div>
 
-    
-    
+<div style="text-align: center;">
+    <a href="immagini/Presentazione.pdf" target="_blank" style="display: inline-block; margin-top: 20px;">
+        <button style="padding: 10px 20px; border-radius: 5px; background-color: #4CAF50; color: white; border: none;">
+            Visualizza Presentazione
+        </button>
+    </a>
+</div>
     
     
     
