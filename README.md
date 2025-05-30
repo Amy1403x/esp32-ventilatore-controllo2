@@ -138,7 +138,7 @@ IMG_8422.jpeg
 
 <p align="center">  
   <a href="main.ino" target="_blank">  
-    <img src="https://img.shields.io/badge/📖%20Visualizza%20Presentazione-4CAF50?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Visualizza Code" />  
+    <img src="https://img.shields.io/badge/📖%20Visualizza%20Codice-4CAF50?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Visualizza Code" />  
   </a>  
 </p> 
 
