@@ -1,14 +1,13 @@
 # Sistema di Controllo Ventilatore con ESP32
 
-Questo progetto implementa un sistema automatico per il controllo di un ventilatore basato sulla temperatura dell'ambiente. Quando la temperatura supera una soglia preimpostata, il ventilatore si attiva automaticamente per garantire un ambiente più fresco.
+Questo progetto implementa un sistema automatico per il controllo di un ventilatore basato sulla temperatura dell'ambiente. Quando la temperatura supera una soglia preimpostata ( 24 - 25°C ), il ventilatore si attiva automaticamente.
 
-![Ventilatore](imm=300px, border-radius=15px}
 
 ## Hardware Necessario
 - ESP32
 - Sensore di temperatura e umidità DHT11
 - Display OLED 128x64 (interfaccia I2C)
-- Ventilatore 5V
+- Ventilatore >5V
 - LED bianco
 - Resistenza 220Ω
 - Transistor NPN 2N2222 con resistenza da 1 kΩ
@@ -26,13 +25,13 @@ Questo progetto implementa un sistema automatico per il controllo di un ventilat
 | Transistor 2N2222 Emettitore | GND comune (ESP32 + alimentazione)  |
 
 ## Librerie Software Richieste
-Per il corretto funzionamento del sistema, si consiglia di installare tramite l’IDE Arduino le seguenti librerie:
+Per il funzionamento del progetto, si consiglia di installare tramite l’IDE Arduino le seguenti librerie:
 - DHT sensor library (Adafruit)
 - Adafruit GFX Library
 - Adafruit SSD1306
 
 ## Funzionamento del Sistema
-Il sistema monitora costantemente temperatura e umidità tramite il sensore DHT11. Quando la temperatura rilevata supera i 24°C (valore configurabile), il ventilatore viene attivato automaticamente e il LED bianco si spegne per indicare lo stato operativo del sistema.
+Il sistema monitora costantemente temperatura e umidità tramite il sensore DHT11. Quando la temperatura rilevata supera i 24°C, il ventilatore viene attivato automaticamente e il LED bianco si spegne.
 
 Il display OLED visualizza in tempo reale:
 - Temperatura con precisione di un decimale
