@@ -8,6 +8,7 @@
 
 ---
 
+
 ## 🛠️ Hardware Necessario
 
 - ESP32  
@@ -18,7 +19,9 @@
 - Resistenza 220Ω  
 - Transistor NPN 2N2222 con resistenza da 1kΩ  
 
+
 ---
+
 
 ## 📌 Schema di Collegamento
 
@@ -33,7 +36,9 @@
 | 2N2222 (Collettore)        | Ventilatore (polo negativo)                       |
 | 2N2222 (Emettitore)        | GND comune (ESP32 + alimentazione)                |
 
+
 ---
+
 
 ## 🏗️ Librerie Arduino Richieste
 
@@ -43,7 +48,9 @@ Installa le seguenti librerie tramite il Library Manager dell’IDE Arduino:
 - Adafruit GFX Library  
 - Adafruit SSD1306  
 
+
 ---
+
 
 ## 🎯 Funzionamento del Sistema
 
@@ -54,7 +61,9 @@ Sul display OLED vengono mostrati in tempo reale:
 - 💧 **Umidità relativa** (%)  
 - 🔄 **Stato del ventilatore**: ON / OFF  
 
+
 ---
+
 
 ## ⚙️ Configurazione
 
@@ -64,7 +73,9 @@ Puoi modificare la soglia di attivazione della temperatura agendo su questa cost
 const float TEMP_SOGLIA = 24.0;  // Temperatura in gradi Celsius
 ```
 
+
 ---
+
 
 ## ⚡ Come funziona il Transistor NPN (2N2222)
 
@@ -81,7 +92,9 @@ Quando una **piccola corrente entra nella base**, il transistor consente il **pa
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/NPN_symbol.svg/1920px-NPN_symbol.svg.png" alt="Transistor NPN" width="200"/>
 </p>
 
+
 ---
+
 
 ## ⚠️ Problematiche Iniziali
 
@@ -106,12 +119,15 @@ Durante lo sviluppo si sono riscontrati i seguenti problemi:
 
 ---
 
+
 ## 🎥 Video Dimostrativo
 
 🔗 Guarda il **video su Google Drive**.  
 📌 Nota: la qualità è stata ridotta dalla compressione di Google Drive.  
 
+
 ---
+
 
 ## 🖼️ Galleria Immagini
 
@@ -123,7 +139,9 @@ Durante lo sviluppo si sono riscontrati i seguenti problemi:
   <img src="immagini/2n2222-2222-transistor-data-tt-datasheet-n2222-2585107277.jpg" width="300" />
 </p>
 
+
 ---
+
 
 ## 📑 Presentazione del Progetto
 
@@ -132,4 +150,4 @@ Durante lo sviluppo si sono riscontrati i seguenti problemi:
     <img src="https://img.shields.io/badge/📖%20Visualizza%20Presentazione-4CAF50?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Visualizza Presentazione" />
   </a>
 </p>
-```
+
