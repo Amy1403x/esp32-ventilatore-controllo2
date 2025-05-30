@@ -132,3 +132,13 @@ IMG_8422.jpeg
     <img src="https://img.shields.io/badge/📖%20Visualizza%20Presentazione-4CAF50?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Visualizza Presentazione" />  
   </a>  
 </p> 
+
+
+## 💻 Codice del Progetto <br>
+
+<p align="center">  
+  <a href="main.ino" target="_blank">  
+    <img src="https://img.shields.io/badge/📖%20Visualizza%20Presentazione-4CAF50?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Visualizza Presentazione" />  
+  </a>  
+</p> 
+
