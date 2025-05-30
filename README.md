@@ -1,4 +1,4 @@
-# 🌬️ Sistema di Controllo Ventilatore con ESP32
+# Sistema di Controllo Ventilatore con ESP32
 
 > Un progetto per automatizzare l'accensione di un ventilatore in base alla temperatura ambientale, usando un **ESP32**, un **sensore DHT11** e un **transistor NPN 2N2222**.
 
@@ -68,13 +68,13 @@ const float TEMP_SOGLIA = 24.0;  // Temperatura in gradi Celsius
 
 ## ⚡ Come funziona il Transistor NPN (2N2222)
 
-Un **transistor NPN** come il **2N2222** è usato come interruttore elettronico. 🏎️  
+Un **transistor NPN** come il **2N2222** è usato come interruttore elettronico. 
 
 Quando una **piccola corrente entra nella base**, il transistor consente il **passaggio di corrente tra collettore ed emettitore**. Questo permette di **controllare dispositivi** come un ventilatore utilizzando un segnale di **bassa potenza** proveniente da un GPIO dell’ESP32.  
 
-✨ **Processo di attivazione**:
-- 🔌 La **base** riceve corrente da un GPIO tramite una resistenza da **1kΩ**.  
-- ⚡ Quando il transistor si **attiva**, il **collettore** (collegato al negativo del ventilatore) consente il flusso di corrente verso l’**emettitore** (collegato a GND).  
+**Processo di attivazione**:
+-  La **base** riceve corrente da un GPIO tramite una resistenza da **1kΩ**.  
+-  Quando il transistor si **attiva**, il **collettore** (collegato al negativo del ventilatore) consente il flusso di corrente verso l’**emettitore** (collegato a GND).  
 - 💨 Il **ventilatore** riceve quindi corrente completa dal suo **positivo verso massa**, e si **attiva**.  
 
 <p align="center">
