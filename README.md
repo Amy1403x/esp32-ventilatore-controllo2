@@ -77,7 +77,7 @@ Quando una **piccola corrente entra nella base**, il transistor consente il **pa
 - 💨 Il **ventilatore** riceve quindi corrente completa dal suo **positivo verso massa**, e si **attiva**.  
 
 <p align="center">  
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/NPN_symbol.svg/1920px-NPN_symbol.svg.png" alt="Transistor NPN" width="200"/>  
+  <img src="immagini/IMG_8422.jpeg" alt="Transistor NPN" width="200"/>  
 </p> <br>
 
 ---
@@ -122,6 +122,7 @@ Durante lo sviluppo si sono riscontrati i seguenti problemi:
   <img src="immagini/2n2222-2222-transistor-data-tt-datasheet-n2222-2585107277.jpg" width="300" />  
 </p> <br>
 
+IMG_8422.jpeg
 ---
 
 ## 📑 Presentazione del Progetto <br>
