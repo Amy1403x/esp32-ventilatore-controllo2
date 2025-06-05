@@ -128,7 +128,7 @@ IMG_8422.jpeg
 ## 📑 Presentazione del Progetto <br>
 
 <p align="center">  
-  <a href="immagini/Presentazione.pdf" target="_blank">  
+    <a href="https://gamma.app/embed/mlvxr0j55hpe9pn" target="_blank">  
     <img src="https://img.shields.io/badge/📖%20Visualizza%20Presentazione-4CAF50?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Visualizza Presentazione" />  
   </a>  
 </p> 
@@ -144,4 +144,3 @@ IMG_8422.jpeg
 
 <br>
 
-<iframe src="https://gamma.app/embed/mlvxr0j55hpe9pn" style="width: 700px; max-width: 100%; height: 450px" allow="fullscreen" title="Sistema di Controllo Ventilatore con ESP32"></iframe>
