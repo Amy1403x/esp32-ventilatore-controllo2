@@ -142,3 +142,6 @@ IMG_8422.jpeg
   </a>  
 </p> 
 
+<br>
+
+<iframe src="https://gamma.app/embed/mlvxr0j55hpe9pn" style="width: 700px; max-width: 100%; height: 450px" allow="fullscreen" title="Sistema di Controllo Ventilatore con ESP32"></iframe>
